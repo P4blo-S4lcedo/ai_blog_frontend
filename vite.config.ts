@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ai_blog_front/',
+  base: '/ai_blog_fronted/',
   build: {
     outDir: 'docs',
     emptyOutDir: true,
