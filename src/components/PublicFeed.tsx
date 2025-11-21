@@ -99,8 +99,7 @@ export function PublicFeed({ apiUrl }: PublicFeedProps) {
                 </h3>
               </div>
 
-              {/* Post Body */}
-              <div className="text-zinc-400 mb-4 line-clamp-4 whitespace-pre-wrap">
+              <div className="text-zinc-400 mb-4 whitespace-pre-wrap">
                 {post.body}
               </div>
 
